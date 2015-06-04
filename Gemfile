@@ -15,14 +15,15 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :test do
   gem 'cucumber-rails', '~>1.3.0', require: false
   gem 'database_cleaner'
-  gem 'cucumber'
+
+  gem 'test-unit'
 end
 
 group :development, :test do
   gem 'byebug'
 gem 'rspec-rails', '~>2.12.2'
   gem 'web-console', '~> 2.0'
-
+  gem 'spork-rails', :github => 'sporkrb/spork-rails'
   gem 'spring'
 end
 

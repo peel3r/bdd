@@ -13,7 +13,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :test do
-  gem 'cucumber-rails', '~>1.3.0', require: false
+  gem 'cucumber-rails', '~>1.4.0', require: false
   gem 'database_cleaner'
 
   gem 'test-unit'
